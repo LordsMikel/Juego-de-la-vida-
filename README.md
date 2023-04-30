@@ -37,7 +37,7 @@ The program allows the user to select one of the following initial configuration
 To run the program, simply compile and run the source code:
 
 ```bash
-g++ main.cpp -o game_of_life
+g++ game_of_life.cpp -o game_of_life
 ./game_of_life
 ```
 
