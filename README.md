@@ -30,9 +30,15 @@ These are the libraries used in the program:
 
 The program allows the user to select one of the following initial configurations:
 
-1. Glider
-2. Small Exploder
-3. Ten Cell Row
+1. **Glider**
+El deslizador es un patrón que se mueve diagonalmente a través del tablero. Consiste en una configuración de cinco celdas que parece 'deslizarse' hacia abajo y hacia la derecha en el tablero con cada iteración.
+
+2. **Small Exploder**
+El Pequeño Explosivo es un patrón que 'explota' después de unas pocas iteraciones, creando un conjunto de celdas vivas a su alrededor. Aunque finalmente se estabiliza y deja de cambiar, sus 'explosiones' pueden interactuar con otros patrones cercanos y causar comportamientos interesantes.
+
+3. **Ten Cell Row**
+Este es un patrón simple que consiste en una fila de diez celdas vivas. Después de varias iteraciones, este patrón se transforma en una combinación de 'barcos', 'parpadeadores' y 'bloques'.
+
 
 To run the program, simply compile and run the source code:
 
