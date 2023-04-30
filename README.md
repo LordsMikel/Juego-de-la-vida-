@@ -29,7 +29,16 @@ These are the libraries used in the program:
 - map
 
 The program allows the user to select one of the following initial configurations:
+**English Version**
+1. **Glider**
+The glider is a pattern that moves diagonally across the board. It consists of a configuration of five cells that appears to 'glide' down and to the right on the board with each iteration.
 
+2. **Small Exploder**
+The Small Exploder is a pattern that 'explodes' after a few iterations, creating a set of live cells around it. Although it eventually stabilizes and stops changing, its 'explosions' can interact with other nearby patterns and cause interesting behavior.
+
+3. **Ten Cell Row**
+This is a simple pattern that consists of a row of ten live cells. After several iterations, this pattern transforms into a combination of 'ships', 'blinkers', and 'blocks'.
+**Spanish Version**
 1. **Glider**
 El deslizador es un patrón que se mueve diagonalmente a través del tablero. Consiste en una configuración de cinco celdas que parece 'deslizarse' hacia abajo y hacia la derecha en el tablero con cada iteración.
 
@@ -38,6 +47,8 @@ El Pequeño Explosivo es un patrón que 'explota' después de unas pocas iteraci
 
 3. **Ten Cell Row**
 Este es un patrón simple que consiste en una fila de diez celdas vivas. Después de varias iteraciones, este patrón se transforma en una combinación de 'barcos', 'parpadeadores' y 'bloques'.
+
+
 
 
 To run the program, simply compile and run the source code:
